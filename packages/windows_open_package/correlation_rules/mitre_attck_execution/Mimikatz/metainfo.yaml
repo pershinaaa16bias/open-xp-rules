@@ -1,0 +1,31 @@
+ContentAutoName: Mimikatz
+ExpertContext:
+  Created: 18.04.2025
+  Updated: 24.04.2025
+  KnowledgeHolders:
+    - '[06_04]'
+  Usecases: []
+  Falsepositives: []
+  References:
+    - https://attack.mitre.org/software/S0002/
+    - https://attack.mitre.org/techniques/T1059/001/
+    - https://attack.mitre.org/techniques/T1003/001/
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID:
+        - 1
+    - Provider: Microsoft-Windows-PowerShell
+      EventID:
+        - 4104
+ObjectId: SEC-CR-111426198
+EventDescriptions:
+  - Criteria: correlation_name = "Mimikatz"
+    LocalizationId: corrname_Mimikatz
+ContentRelations:
+  Implements:
+    ATTACK:
+      execution:
+        - T1059.001
+      credential-access:
+        - T1003.001

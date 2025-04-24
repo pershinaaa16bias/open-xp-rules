@@ -1,0 +1,4 @@
+Description: 'Правило детектирует дамп процессов через wmic.exe'
+EventDescriptions:
+  - LocalizationId: 'corrname_Wmic_suspicious_command_1504'
+    EventDescription: 'Процесс {object.proceess.name} выгрузил список активных процессов на узле {event_src.host}'
