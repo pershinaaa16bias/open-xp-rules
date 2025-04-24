@@ -1,0 +1,27 @@
+ContentAutoName: Wmic_suspicious_command_1504
+ExpertContext:
+  Created: 15.04.2025
+  Updated: 15.04.2025
+  KnowledgeHolders:
+    - '[05_04]'
+  Usecases: []
+  Falsepositives: []
+  References:
+    - https://attack.mitre.org/techniques/T1047/
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID:
+        - 1
+    - Provider: Microsoft-Windows-PowerShell
+      EventID:
+        - 4104
+ObjectId: SEC-CR-276427888
+ContentRelations:
+  Implements:
+    ATTACK:
+      execution:
+        - T1047
+EventDescriptions:
+  - Criteria: correlation_name = "Wmic_suspicious_command_1504"
+    LocalizationId: corrname_Wmic_suspicious_command_1504

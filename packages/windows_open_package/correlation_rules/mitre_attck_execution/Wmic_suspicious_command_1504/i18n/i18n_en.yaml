@@ -1,0 +1,4 @@
+Description: 'The rule detects dumping processes via wmic.exe utility'
+EventDescriptions:
+  - LocalizationId: 'corrname_Wmic_suspicious_command_1504'
+    EventDescription: 'Process {object.proceess.name} has dumped processes list on host {event_src.host}'

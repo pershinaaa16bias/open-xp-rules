@@ -1,0 +1,4 @@
+Description: 'The rule detects an attempt to download Mimikatz in order to launch it further to create a dump with credentials'
+EventDescriptions:
+  - LocalizationId: 'corrname_Mimikatz'
+    EventDescription: 'Process {object.process.name} has tried create a dump with credentials using Mimikatz on host {event_src.host}'

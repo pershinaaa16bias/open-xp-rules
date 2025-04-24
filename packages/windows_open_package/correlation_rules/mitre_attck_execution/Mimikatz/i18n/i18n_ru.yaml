@@ -1,0 +1,4 @@
+Description: 'Правило детектирует попытку загрузки Mimikatz с целью его дальнейшего запуска для создания дампа с учетными данными'
+EventDescriptions:
+  - LocalizationId: 'corrname_Mimikatz'
+    EventDescription: 'Процесс {object.process.name} попытался создать дамп с учетными данными с помощью Mimikatz на узле {event_src.host}'
