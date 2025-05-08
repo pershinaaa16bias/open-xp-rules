@@ -1,0 +1,26 @@
+ContentAutoName: lab_5_4_2
+ExpertContext:
+  Created: 29.04.2025
+  Updated: 08.05.2025
+  KnowledgeHolders:
+    - '[06_04]'
+  Usecases: []
+  Falsepositives: []
+  References:
+    - https://blahcat.github.io/2020-12-29-cheap-sandboxing-with-appcontainers/
+    - https://attack.mitre.org/techniques/T1622/
+    - https://attack.mitre.org/techniques/T1055/
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-350094650
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1055
+        - T1622
+EventDescriptions:
+  - Criteria: correlation_name = "lab_5_4_2"
+    LocalizationId: corrname_lab_5_4_2

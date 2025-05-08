@@ -1,0 +1,4 @@
+Description: 'Правило детектирует попытку выполнить процесс используя привелегии AppContainer'
+EventDescriptions:
+  - LocalizationId: 'corrname_lab_5_4_2'
+    EventDescription: 'Процесс {object.process.name} попытался выполнить процесс используя привелегии AppContainer на узле {event_src.host}'
