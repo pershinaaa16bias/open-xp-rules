@@ -1,0 +1,4 @@
+Description: 'The rule detects an attempt to execute the process using AppContainer privileges'
+EventDescriptions:
+  - LocalizationId: 'corrname_lab_5_4_2'
+    EventDescription: 'The process {object.process.name} has tried to execute the process using AppContainer privileges on the {event_src.host} node'

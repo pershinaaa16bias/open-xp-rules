@@ -1,0 +1,23 @@
+ContentAutoName: lab_5_1_2
+ExpertContext:
+  Created: 07.05.2025
+  Updated: 08.05.2025
+  KnowledgeHolders:
+    - '[06_04]'
+  Usecases: []
+  Falsepositives: []
+  References:
+    - https://attack.mitre.org/techniques/T1556/001/
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID: []
+ObjectId: SEC-CR-303417297
+ContentRelations:
+  Implements:
+    ATTACK:
+      credential-access:
+        - T1556
+EventDescriptions:
+  - Criteria: correlation_name = "lab_5_1_2"
+    LocalizationId: corrname_lab_5_1_2

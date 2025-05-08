@@ -1,0 +1,4 @@
+Description: 'Правило детектирует попытку кражи учетных данных используя Kekeo'
+EventDescriptions:
+  - LocalizationId: 'corrname_lab_5_2_2'
+    EventDescription: 'Процесс {object.process.name} попытался украсть учетные данные используя kekeo на узле {event_src.host}'

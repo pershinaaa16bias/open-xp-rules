@@ -1,0 +1,4 @@
+Description: 'Правило детектирует попытку выполнить процесс с повышенными привелегиями используя lsass.exe'
+EventDescriptions:
+  - LocalizationId: 'corrname_lab_5_1_2'
+    EventDescription: 'Процесс {object.process.name} попытался выполнить процесс с повышенными привелегиями, используя lsass на узле {event_src.host}'

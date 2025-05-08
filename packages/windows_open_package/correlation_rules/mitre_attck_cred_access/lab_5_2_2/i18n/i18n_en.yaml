@@ -1,0 +1,4 @@
+Description: 'The rule detects an attempt to steal credentials using Kekeo'
+EventDescriptions:
+  - LocalizationId: 'corrname_lab_5_2_2'
+    EventDescription: 'The process {object.process.name} has tried to steal credentials using kekeo on the {event_src.host} node'
