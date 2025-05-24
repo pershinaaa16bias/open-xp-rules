@@ -1,0 +1,4 @@
+Description: 'Правило детектирует попытку выполнить системный процесс {object.process.name} из пользовательской директории'
+EventDescriptions:
+  - LocalizationId: 'corrname_lab_6_1'
+    EventDescription: 'Процесс {subject.process.name} попытался выполнить системный процесс {object.process.name} на узле {event_src.host}'

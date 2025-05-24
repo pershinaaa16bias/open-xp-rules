@@ -1,0 +1,4 @@
+Description: 'The rule detects an attempt to execute the code using a password-protected ZIP archive'
+EventDescriptions:
+  - LocalizationId: 'corrname_lab_6_2_2'
+    EventDescription: 'The process {object.process.name} has tried to execute the code using a password-protected ZIP archive on the {event_src.host} node'
