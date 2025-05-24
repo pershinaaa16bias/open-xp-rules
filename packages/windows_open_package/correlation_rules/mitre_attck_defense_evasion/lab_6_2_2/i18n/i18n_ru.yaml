@@ -1,0 +1,4 @@
+Description: 'Правило детектирует попытку выполнить код с использованием запароленного ZIP-архива'
+EventDescriptions:
+  - LocalizationId: 'corrname_lab_6_2_2'
+    EventDescription: 'Процесс {object.process.name} попытался выполнить код с использованием запароленного ZIP-архива на узле {event_src.host}'

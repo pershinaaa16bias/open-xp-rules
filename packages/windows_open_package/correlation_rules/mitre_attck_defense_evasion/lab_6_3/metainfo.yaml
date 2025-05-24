@@ -1,0 +1,26 @@
+ContentAutoName: lab_6_3
+ExpertContext:
+  Created: 22.05.2025
+  Updated: 24.05.2025
+  KnowledgeHolders:
+    - '[06_04]'
+  Usecases: []
+  Falsepositives: []
+  References:
+    - https://attack.mitre.org/techniques/T1055/
+  Improvements: []
+  DataSources:
+    - Provider: Microsoft-Windows-Sysmon
+      EventID:
+        - 10
+ObjectId: SEC-CR-822455582
+ContentRelations:
+  Implements:
+    ATTACK:
+      defense-evasion:
+        - T1055
+      privilege-escalation:
+        - T1055
+EventDescriptions:
+  - Criteria: correlation_name = "lab_6_3"
+    LocalizationId: corrname_lab_6_3
